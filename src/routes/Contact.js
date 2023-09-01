@@ -8,7 +8,7 @@ const Contact = () => {
   return (
     <>
     <Navbar/>
-    <HeroSection/>
+    <HeroSection heading ="CONTACT ME." text= "Hey there, let's have a chat" />
     <Footer/>
     </>
       

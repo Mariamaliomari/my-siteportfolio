@@ -7,7 +7,7 @@ const Projects = () => {
   return (
     <>
      <Navbar/>
-    <HeroSection/>
+    <HeroSection heading="MY PROJECTS" text= "Here are some of the projects I've had the privilege to work on:"/>
     <Footer/>
     </>
   )

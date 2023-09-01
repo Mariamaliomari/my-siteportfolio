@@ -7,7 +7,7 @@ const About = () => {
   return (
     <>
     <Navbar/>
-    <HeroSection/>
+    <HeroSection heading="ABOUT ME." text="I'm a Versatile Full-Stack Wed Developer"/>
     <Footer/>
     </>
       
