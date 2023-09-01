@@ -1,0 +1,52 @@
+.service{
+    width: 100%;
+    padding: 5rem 2rem;
+    background-color: black;
+}
+.card-container{
+    max-width: 1140px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+}
+.card{
+    border: 1px solid #eee;
+    color: #eee;
+    text-align: center;
+    padding: 1rem;
+}
+.card:hover{
+    background-color: #222121;
+
+}
+.card h1{
+    font-size:2.4rem;
+    padding: 1rem;
+ }
+ .card p{
+ 
+    font-size: 1.4rem;
+    padding: 10px 3px;
+ }
+ .bar{
+    border-bottom: 2px solid #eee ;
+    width: 30%;
+    margin: 1.5rem auto;
+    display: block;
+
+ }
+
+@media screen and (max-width: 740px){
+
+    .card-container{
+        max-width: 70%;
+        margin: auto;
+        
+        grid-template-columns: 1fr;
+        
+    }
+
+
+    
+}
