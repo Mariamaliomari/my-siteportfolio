@@ -7,7 +7,9 @@ import { Link } from 'react-router-dom'
 const Service = () => {
   return (
     <div className='service'>  
+    <h1>Services</h1>
         <div className='card-container'>
+          
             <div className='card'>
             <FaDesktop size={35} style={{color:"#fff", marginRight:"2rem"}}/> 
             <span className='bar'></span>
