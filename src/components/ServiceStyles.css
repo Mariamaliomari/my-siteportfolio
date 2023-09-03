@@ -19,10 +19,12 @@
 .card:hover{
     background-color: #222121;
 
+
 }
 .card h1{
     font-size:2.4rem;
     padding: 1rem;
+    font-weight: 600;
  }
  .card p{
  
@@ -34,6 +36,12 @@
     width: 30%;
     margin: 1.5rem auto;
     display: block;
+
+ }
+ .card.btn{
+    width: 70%;
+    display: block;
+    margin: 1rem auto;
 
  }
 
