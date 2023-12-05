@@ -9,6 +9,7 @@ const Contact = () => {
     <>
     <Navbar/>
     <HeroSection heading ="CONTACT ME." text= "Hey there, let's have a chat" />
+    
     <Footer/>
     </>
       
