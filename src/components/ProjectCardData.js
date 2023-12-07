@@ -9,7 +9,7 @@ const ProjectCardData = [
         imgsrc: portfolio,
         title: "My Personal Portfolio",
         text: "This is a portfolio website created with React.js and CSS, showcasing the creator's web development and design skills. It features a dynamic and responsive design, highlighting a collection of projects with detailed descriptions. The site's user-friendly navigation and visually appealing design emphasize both functionality and aesthetics. Visitors are encouraged to explore the creator's work, learn about their experiences, and consider collaboration opportunities.",
-        view: "https/yutt",
+        view: "https://my-siteportfolio.vercel.app/",
         source:" https://github.com/Mariamaliomari/my-siteportfolio"
     },
 

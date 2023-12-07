@@ -47,12 +47,18 @@ const Service = () => {
             <div className='card'>
             <FaGlobe size={45} style={{color:"yellow", marginRight:"2rem"}}/> 
             <span className='bar'></span>
-            <h1> Wed Development</h1>
-            <p>  I've gained a deep understanding of database management.
-                 This skill involves data storage, retrieval, and organization, with a focus on proficient data modeling and
-                 relationships. I'm adept in both SQL enabling me to 
-                   optimize performance and manage backups. Continuous monitoring ensure top-tier database performance,
-                guaranteeing efficient and secure data handling and superior user experiences.</p>
+            <h1> Web Development</h1>
+            <p>  In web development, I specialize in creating responsive and user-friendly interfaces using a combination of front-end and back-end technologies. 
+          <br></br>
+            Front-end Technologies:
+            Proficient in HTML, CSS, and Bootstrap for crafting visually appealing and responsive user interfaces.
+            <br></br>
+
+            Back-end Technologies:
+             Utilizing Django for server-side logic, database management, and secure authentication.
+             Leveraging the power of Python to build robust back-end functionality.
+
+</p>
                 <Link to="/contact" className='btn'>  Get in touch</Link>
                 
             </div>
