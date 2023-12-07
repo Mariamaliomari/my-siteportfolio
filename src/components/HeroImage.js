@@ -1,6 +1,7 @@
 import "./HeroImageStyle.css"
 import React from 'react'
 import LandingImage from '../assets/landing.jpg'
+// import LandingImage from '../assets/women.webp'
 import { Link } from "react-router-dom"
 
 const HeroImage = () => {
@@ -12,7 +13,7 @@ const HeroImage = () => {
         <div className="content"> 
         <p>HI, I'M MARIAM ALI</p>
         <h1>Full-Stack Web Developer</h1>
-        <div>
+        <div className="buttons">
             <Link to="projects" className="btn">Projects</Link>
             <Link to="contact" className="btn btn-light">Contact</Link>
         </div>

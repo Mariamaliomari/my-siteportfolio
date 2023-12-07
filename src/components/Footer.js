@@ -32,17 +32,18 @@ const Footer = () => {
             
             </div>
             <div className="right-side">
-                <h4>About this company</h4>
+                <h4>About </h4>
                 <p> I'm Mariam Ali, I see myself as a proactive partner, eager to optimize processes,
                      enhance user satisfaction, and contribute to your company's success.</p>
-                <div className="socials">
-                    <FaWhatsapp size={30} style={{color:"#fff", marginRight:"1rem"}}/>
-                    <FaTwitter size={30} style={{color:"#fff", marginRight:"1rem"}}/>
-                    <FaLinkedin size={30} style={{color:"#fff", marginRight:"1rem"}}/>
+                <div className="socials" style={{padding:"20px"}}> 
+                    <FaWhatsapp size={40} style={{color:"green", marginRight:"1rem"}}/>
+                    <FaTwitter size={40} style={{color:"lightblue", marginRight:"1rem"}}/>
+                    <a href="https://www.linkedin.com/in/mariam-omari/" target="_blank" rel="noopener noreferrer">
+                        <FaLinkedin size={40} style={{ color: "blue", marginRight: "1rem" }} />
+                    </a>
 
                 </div>
             </div>
-            
 
         </div>
       
