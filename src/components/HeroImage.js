@@ -3,6 +3,8 @@ import React from 'react'
 import LandingImage from '../assets/landing.jpg'
 // import LandingImage from '../assets/women.webp'
 import { Link } from "react-router-dom"
+import Resume from '../assets/MyCV.pdf';
+
 
 const HeroImage = () => {
   return (
@@ -16,6 +18,16 @@ const HeroImage = () => {
         <div className="buttons">
             <Link to="projects" className="btn">Projects</Link>
             <Link to="contact" className="btn btn-light">Contact</Link>
+            <a
+              href={Resume}
+              download="Example-PDF-document"
+              target="_blank"
+              rel="noreferrer"
+            >
+              < button className="btn">Download Resume</button>
+            </a>
+
+            
         </div>
 
         </div>
