@@ -3,6 +3,7 @@ import "./AboutContent.css"
 import { Link } from 'react-router-dom'
 import React1 from"../assets/img1.jpeg"
 import React2 from "../assets/img4.jpeg"
+import Resume from '../assets/MyCV.pdf';
 
 
 const AboutContent = () => {
@@ -39,8 +40,16 @@ const AboutContent = () => {
 
         </div>
         <div className='buttons'>
-        <button className="btn">Download CV</button>
-        <button className="btn">Hit Me Up</button>
+        <a
+              href={Resume}
+              download="Example-PDF-document"
+              target="_blank"
+              rel="noreferrer"
+            >
+              < button className="btn">Download Resume</button>
+            </a>
+       
+            <Link to="/contact"> Contact </Link>
 
 
         </div>
