@@ -1,7 +1,8 @@
 import React, { useState } from 'react'
 import "./NavbarStyles.css"
 import { Link } from 'react-router-dom'
-import {FaBars, FaTimes} from "react-icons/fa"
+import {FaBars, FaGithub, FaTimes} from "react-icons/fa"
+import { FaInfoCircle, FaEnvelope } from 'react-icons/fa'
 
 const Navbar = () => {
     const [click, setClick] = useState(false);
@@ -14,6 +15,12 @@ const Navbar = () => {
     }
     window.addEventListener("scroll", changeColor);
 
+    const [isMobile, setIsMobile] = useState(false);
+    const handleToggle = () => {
+        setIsMobile(!isMobile);
+      };
+    
+
 
   return (
     <div className= {color ?".header header-bg":"header" }>
@@ -24,13 +31,14 @@ const Navbar = () => {
         </Link>
         <ul className={click ? "nav-menu active": "nav-menu"}>
             <li> 
-                <Link to="/">Home </Link>
+                <Link to="/">Blogs </Link>
             </li>
             <li> 
                 <Link to="/projects"> Projects </Link>
             </li>
             <li> 
                 <Link to="/about"> About </Link>
+
             </li>
             <li> 
                 <Link to="/contact"> Contact </Link>
@@ -38,6 +46,16 @@ const Navbar = () => {
             
             
         </ul>
+
+
+        <div className={`navbar ${isMobile ? 'responsive' : ''}`}>
+            
+            <a href="#services"><FaGithub /> </a>
+            <a href="#about"><FaInfoCircle /> </a>
+            <a href="#contact"><FaEnvelope /></a>
+    
+    
+    </div>
         <div className='hamburger' onClick={handleClick}>
             {click ?(<FaTimes size={20} style={{color:"#fff"}}/>):(<FaBars size={20} style={{color:"#fff"}}/>)}
             

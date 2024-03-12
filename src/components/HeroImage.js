@@ -3,7 +3,7 @@ import React from 'react'
 import LandingImage from '../assets/landing.jpg'
 // import LandingImage from '../assets/women.webp'
 import { Link } from "react-router-dom"
-import Resume from '../assets/MyCV.pdf';
+import Resume from '../assets/MariamCV.pdf';
 
 
 const HeroImage = () => {
