@@ -30,11 +30,11 @@
 }
 
 .hero-image h1{
-    font-size: 2.4rem;
+    font-size: 2rem;
 
 }
 .hero-image p{
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     text-align: center;
 }
 @media screen and (max-width: 640px){

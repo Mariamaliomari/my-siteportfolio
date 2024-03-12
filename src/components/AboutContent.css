@@ -6,16 +6,20 @@
     justify-content: center;
     flex-wrap: wrap;
     height: 100%;
-    margin: auto;
+    
 }
 .about button{
     margin-top: 20px;
+}
+.about h1{
+    color: yellow;
+    margin-top: 50px;
 }
 .about .left{
     text-align: center;
     margin: auto;
     padding: 1rem;
-    max-width: 650px;
+    max-width: 950px;
 }
 .about .left p{
     margin: 1.4 rem 0;
@@ -23,9 +27,9 @@
 
 
 }
-.about .right {
+/* .about .right {
     max-width: 700px;
-}
+} */
 .right .img-container{
     display: grid;
     grid-template-columns: repeat(14, 1fr);

@@ -1,8 +1,6 @@
 import React from 'react'
 import "./AboutContent.css"
 import { Link } from 'react-router-dom'
-import React1 from"../assets/img1.jpeg"
-import React2 from "../assets/img4.jpeg"
 import Resume from '../assets/MariamCV.pdf';
 
 
@@ -20,16 +18,7 @@ const AboutContent = () => {
         </Link>
       
       </div>
-      <div className="right">
-        <div className='img-container'>
-          <div className='img-stack top'>
-            <img src={React1} className="image" alt='true'/>
-          </div>
-          <div className='img-stack bottom'>
-            <img src={React2} className="image" alt='true'/>
-          </div>
-        </div>
-      </div>
+      
       <div className='bio'>
         <div className='content'>
           <h1>My Bio</h1>

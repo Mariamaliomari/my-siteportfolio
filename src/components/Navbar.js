@@ -50,14 +50,14 @@ const Navbar = () => {
 
         <div className={`navbar ${isMobile ? 'responsive' : ''}`}>
             
-            <a href="#services"><FaGithub /> </a>
-            <a href="#about"><FaInfoCircle /> </a>
-            <a href="#contact"><FaEnvelope /></a>
+            <a href="#services"><FaGithub size={26}/> </a>
+            <a href="#about"><FaInfoCircle size={26}/> </a>
+            <a href="#contact"><FaEnvelope size={26}/></a>
     
     
     </div>
         <div className='hamburger' onClick={handleClick}>
-            {click ?(<FaTimes size={20} style={{color:"#fff"}}/>):(<FaBars size={20} style={{color:"#fff"}}/>)}
+            {click ?(<FaTimes size={30} style={{color:"#fff"}}/>):(<FaBars size={30} style={{color:"#fff"}}/>)}
             
             
         </div>
