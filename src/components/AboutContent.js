@@ -9,10 +9,12 @@ const AboutContent = () => {
     <div className="about">
       <div className="left">
         <h1>Who Am I</h1>
-        <p>I am Mariam Ali, a Full-Stack Wed Developer but also a Data enthusiast, A teacher and like paricipating in community development project.
-          I create responsive website applications that are user friendly for my clients.Apart from Coding, I enjoy Dancing, outdoor activities and 
-          watching movies. This is my personal portfolio, 
-          Please feel free to explore my personal portfolio and blog where I share my thoughts and insights. </p>
+        <p>I'm Mariam Ali 👋
+I’m a passionate Full-Stack Web Developer, a Data Enthusiast, and an advocate for community development. I specialize in building responsive, user-friendly web applications that bring value to my clients.
+
+Beyond coding, I’m a teacher who loves sharing knowledge, and in my free time, I enjoy dancing, exploring the outdoors, and watching movies.
+
+This is my personal portfolio—feel free to explore my work, and check out my blog, where I share my thoughts, insights, and experiences. </p>
         <Link to="/contact">
           <button className='btn'>Contact</button>
         </Link>
